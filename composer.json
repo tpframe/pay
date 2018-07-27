@@ -1,8 +1,11 @@
 {
     "name": "tpframe/pay",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "pay",
+            "name": "tpframe",
             "email": "510974211@qq.com"
         }
     ],
