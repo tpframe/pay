@@ -1,37 +1,21 @@
 {
     "name" : "tpframe/pay",
-    "description" : "tpframe pay SDK",
-    "keywords" : [
-        "tpframe",
-        "pay"
-    ],
-    "license" : "MIT",
-    "homepage" : "https://github.com/tpframe/pay",
-    "support" : {
-        "source" : "https://github.com/tpframe/pay"
-    },
-    "authors" : [{
-            "name" : "tpframe",
-            "email" : "mail@tpframe.com",
-            "homepage": "https://www.tpframe.com",
-            "role" : "Developer"
+    "description": "weixin mini program helper",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "小小黑",
+            "email": "769418278@qq.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.3.0"
     },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "type" : "library",
-    "autoload" : {
-        "psr-4" : {
-            "Tpframe\\Sdk\\" : "src"
-        }
-    },
-    "autoload-dev" : {
-        "psr-4" : {
-            "Tpframe\\Sdk\\" : "src"
+    "autoload": {
+        "psr-4": {
+            "wlt\\wxmini\\": "src/"
         }
     }
 }
