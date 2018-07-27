@@ -1,15 +1,19 @@
 {
     "name": "tpframe/pay",
     "description": "package for PA-tool",
+    "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Tuấn Anh",
-            "email": "anh.pt@globalflow.com.vn"
+            "name": "tpframe",
+            "email": "510974211@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": { 
         "psr-4": {
             "GFL\\Tool\\": "src/"
         }
