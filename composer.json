@@ -1,8 +1,9 @@
 {
     "name": "tpframe/pay",
-    "minimum-stability": "dev",
+    "description": "package for PA-tool",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "tpframe",
@@ -12,9 +13,9 @@
     "require": {
         "php": ">=5.3.0"
     },
-    "autoload": {
+    "autoload": { 
         "psr-4": {
-            "tpframe\\pay\\": "src/"
+            "GFL\\Tool\\": "src/"
         }
     }
 }
