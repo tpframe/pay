@@ -1,13 +1,9 @@
 {
-    "name" : "tpframe/pay",
-    "description": "weixin mini program helper",
-    "license": "Apache-2.0",
-    "minimum-stability": "stable",
-    "version": "1.0.1",
+    "name": "tpframe/pay",
     "authors": [
         {
-            "name": "小小黑",
-            "email": "769418278@qq.com"
+            "name": "pay",
+            "email": "510974211@qq.com"
         }
     ],
     "require": {
@@ -15,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wlt\\wxmini\\": "src/"
+            "tpframe\\pay\\": "src/"
         }
     }
 }
