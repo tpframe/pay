@@ -1,0 +1,33 @@
+{
+    "name" : "tpframe/pay",
+    "description" : "tpframe pay SDK",
+    "keywords" : [
+        "tpframe",
+        "pay"
+    ],
+    "license" : "MIT",
+    "version": "1.0.0",
+    "homepage" : "https://github.com/tpframe/pay",
+    "support" : {
+        "source" : "https://github.com/tpframe/pay"
+    },
+    "authors" : [{
+            "name" : "tpframe",
+            "email" : "mail@tpframe.com",
+            "homepage": "https://www.tpframe.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "type" : "library",
+    "autoload" : {
+        "psr-4" : {
+            "Tpframe\\Sdk\\" : "src"
+        }
+    }
+}
